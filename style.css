@@ -320,6 +320,11 @@ body {
             border-radius: 4px;
             border: thin solid #0070b0;
             width: 400px;
+            transition: all 0.3s ease;
+        }
+
+        p:hover {
+            text-shadow: rgb(255, 255, 255) 5px 0 15px;
         }
 
         img {
@@ -389,13 +394,13 @@ body {
         font-weight: 600;
         background-color: rgba(0, 0, 0, 0);
         border-radius: 4px;
-        box-shadow: 0 8px 6px -6px black;
-        text-shadow: rgb(255, 255, 255) 1px 0 10px;
+        box-shadow: 0 8px 6px -6px #003459;
+        text-shadow: rgb(0, 0, 0) 1px 0 10px;
         transition: all 0.3s ease;
     }
 
     a:hover {
-        color: #00A8E8;
+        text-shadow: rgb(255, 255, 255) 5px 0 15px;
     }
 }
 
@@ -440,7 +445,7 @@ body {
     }
 }
 
-.servicios {
+#servicios {
     margin-top: 50px;
     margin-bottom: 150px;
     padding: 10px;
@@ -659,7 +664,8 @@ body {
     }
 }
 
-.team {
+#team {
+    margin-top: 120px;
     padding-top: 50px;
     padding-bottom: 100px;
     background-color: #00171F;
@@ -786,28 +792,25 @@ footer {
     background-repeat: no-repeat;*/
     color: #0070b0;
 
-    p {
-        padding: 10px;
-        background-color: #000000b9;
-    }
-
     .logo-footer {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
 
-        h2 {
-            font-family: 'DM Serif Display', serif;
-            font-size: 2em;
-            color: white;
-            text-shadow: rgb(0, 0, 0) 5px 0 15px;
-        }
-
         img {
-            width: 400px;
-            padding: 50px;
+                width: 400px;
+                padding: 40px;
+            }
+
+        .mini-informacion {
+            padding-bottom: 20px;
+
+            p {
+                color: white;
+                padding: 2px;
+            }
         }
     }
 }
@@ -887,8 +890,8 @@ footer {
             align-items: center;
             justify-content: center;
             height: 640px;
-            
-            .degradado {    
+
+            .degradado {
                 background: linear-gradient(180deg, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0) 15%, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 1) 100%);
             }
 
@@ -1081,7 +1084,7 @@ footer {
         /* Ajusta la altura según tus necesidades */
     }
 
-    h3, 
+    h3,
     h4,
     p {
         font-size: .8em;
