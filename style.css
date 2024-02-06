@@ -779,7 +779,7 @@ body {
             z-index: -10;
             background: rgb(255, 255, 255);
             background: linear-gradient(180deg, rgba(255, 255, 255, 0) 20%, rgba(0, 0, 0, 1) 80%);
-            border-radius: 4px;
+            border-radius: 3px;
         }
 
         h3 {
