@@ -43,7 +43,8 @@ body {
     background-color: var(--background-color-darkest);
 
     .banner-contenido {
-        background-color: var(--background-color-dark);
+        background-color: #000;
+        border-bottom: thin solid var(--background-color-dark);
         padding: 20px;
 
         img {
@@ -62,6 +63,7 @@ body {
     a {
         padding: 20px;
         color: var(--text-color);
+        text-shadow: rgb(255, 255, 255) 1px 0 10px;
         font-family: 'Onest', sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -79,7 +81,7 @@ body {
     grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 75% 100%, 25% 100%, 0 95%);
+    /*clip-path: polygon(0 0, 100% 0, 100% 95%, 75% 100%, 25% 100%, 0 95%);*/
     background: var(--background-color-darkest);
 }
 
@@ -87,8 +89,8 @@ body {
     position: relative;
     z-index: 0;
     grid-area: 1 / 1 / 7 / 11;
-    background-image: url(./media/natura-compresed.jpg);
-    background-color: var(--background-color);
+    background-image: url(./media/foto-equipo.jpg);
+    /*background-color: var(--background-color);*/
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,7 +116,8 @@ body {
         padding: 20px;
 
         h2 {
-            color: var(--text-enfasis);
+            color: var(--text-color);
+            text-shadow: rgb(255, 255, 255) 1px 0 10px;
             font-size: 2.2rem;
             z-index: 10;
             font-weight: 600;
@@ -131,6 +134,7 @@ body {
 
         p {
             color: var(--text-color);
+            text-shadow: rgb(0, 0, 0) 1px 0 10px;
             margin-top: 5px;
             padding: 0px 0px 60px 40px;
             font-size: 1.2rem;
@@ -152,8 +156,8 @@ body {
     position: relative;
     z-index: 0;
     grid-area: 7 / 1 / 13 / 6;
-    background-image: url(./media/ninos-pueblito-compresed.jpg);
-    background-color: var(--background-color);
+    background-image: url(./media/profsalita.jpg);
+    /*background-color: var(--background-color);*/
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,11 +183,12 @@ body {
         padding: 20px;
 
         h2 {
-            color: var(--text-enfasis);
+            color: var(--text-color);
+            text-shadow: rgb(255, 255, 255) 1px 0 10px;
             font-size: 2.2rem;
             z-index: 10;
             font-weight: 600;
-            padding: 0px 0px 0px 40px;
+            padding: 30px 0px 0px 40px;
             text-align: left;
             transition: all 0.3s ease;
         }
@@ -195,8 +200,9 @@ body {
 
         p {
             color: var(--text-color);
+            text-shadow: rgb(0, 0, 0) 1px 0 10px;
             margin-top: 5px;
-            padding: 0px 0px 0px 40px;
+            padding: 20px 0px 20px 40px;
             font-size: 1.2rem;
             line-height: 1.4;
             text-align: left;
@@ -210,8 +216,8 @@ body {
     position: relative;
     z-index: 0;
     grid-area: 7 / 6 / 13 / 11;
-    background-image: url(./media/sheeps-compresed.jpg);
-    background-color: var(--background-color);
+    background-image: url(./media/Arriero-AndreaLa\ Fortura.JPG);
+    /*background-color: var(--background-color);*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -237,12 +243,12 @@ body {
         padding: 20px;
 
         h2 {
-            color: var(--text-enfasis);
+            color: var(--text-color);
+            text-shadow: rgb(255, 255, 255) 1px 0 10px;
             font-size: 2.2rem;
             z-index: 10;
             font-weight: 600;
-            /*padding: 40px 40px 0px;*/
-            padding: 0px 0px 0px 40px;
+            padding: 30px 0px 0px 40px;
             text-align: left;
             transition: all 0.3s ease;
         }
@@ -254,8 +260,9 @@ body {
 
         p {
             color: var(--text-color);
+            text-shadow: rgb(0, 0, 0) 1px 0 10px;
             margin-top: 5px;
-            padding: 0px 0px 0px 40px;
+            padding: 20px 0px 20px 40px;
             font-size: 1.2rem;
             line-height: 1.4;
             text-align: left;
@@ -271,7 +278,7 @@ body {
     z-index: 0;
     color: var(--background-color-light);
     background-color: var(--background-color);
-    background-image: url(./media/clouds-compresed.jpg);
+    background-image: url(./media/parkagua.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,6 +317,10 @@ body {
         width: 840px;
         font-size: 1.2em;
         width: 700px;
+        padding: 15px;
+            background-color: rgba(0, 0, 0, 0.500);
+            border-radius: 10px;
+            text-shadow: rgb(0, 0, 0) 5px 0 15px;
     }
 
     .trademark {
@@ -351,7 +362,7 @@ body {
 
         img {
             margin-top: 40px;
-            margin-bottom: 20px;
+            margin-bottom: 80px;
             width: 500px;
             height: 320px;
         }
@@ -419,6 +430,10 @@ body {
         box-shadow: 0 8px 6px -6px var(--background-color-dark);
         text-shadow: rgb(0, 0, 0) 1px 0 10px;
         transition: all 0.3s ease;
+        padding: 15px;
+            background-color: rgba(0, 0, 0, 0.500);
+            border-radius: 10px;
+            text-shadow: rgb(0, 0, 0) 5px 0 15px;
     }
 
     a:hover {
@@ -428,9 +443,10 @@ body {
 
 .main-section {
     color: var(--text-color);
-    background-color: var(--background-color-dark);
-    clip-path: polygon(25% 0%, 75% 0%, 100% 2%, 100% 100%, 0 100%, 0 2%);
+    background-color: var(--background-color-darkest);
+    /*clip-path: polygon(25% 0%, 75% 0%, 100% 2%, 100% 100%, 0 100%, 0 2%);*/
     padding-bottom: 200px;
+    background-color: #000;
 }
 
 .bienvenida {
@@ -440,6 +456,20 @@ body {
     align-items: center;
     justify-content: center;
     padding: 90px;
+    background-color: #000;
+
+    .container-textos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .caja-textos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
 
     img {
         width: 500px;
@@ -449,12 +479,22 @@ body {
 
     h2 {
         font-family: 'Onest', sans-serif;
-        font-size: 3.0em;
+        font-size: 2em;
         font-weight: 600;
+        margin: 80px;
+        text-shadow: rgb(255, 255, 255) 2px 0 15px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin-top: 30px;
+        width: 200px;
+        align-self: center;
+        text-align: center;
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.2rem;
         margin-top: 20px;
         text-align: justify;
         width: 595px;
@@ -464,15 +504,16 @@ body {
             color: var(--text-color);
         }
     }
+
 }
 
 #servicios {
-    margin-top: 50px;
-    margin-bottom: 150px;
+    margin-top: 0px;
+    margin-bottom: 120px;
     padding: 10px;
-    padding-top: 150px;
+    padding-top: 90px;
     padding-bottom: 70px;
-    background-color: var(--background-color-darkest);
+    background-color: #000;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23101332' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
     clip-path: polygon(20% 5%, 80% 5%, 100% 0, 100% 95%, 80% 100%, 20% 100%, 0 95%, 0 0);
 }
@@ -496,8 +537,8 @@ body {
         z-index: 0;
         grid-area: 1 / 1 / 4 / 5;
         border-radius: 4px;
-        background-image: url(./media/animal-compresed.jpg);
-        background-color: var(--background-color);
+        background-image: url(./media/Caballoscon_Ivar.JPG);
+        /*background-color: var(--background-color);*/
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -545,11 +586,11 @@ body {
         z-index: 0;
         grid-area: 1 / 5 / 4 / 11;
         border-radius: 4px;
-        background-image: url(./media/prayer-compresed.jpg);
+        background-image: url(./media/MapeoFam.Rojas.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: var(--background-color);
+        /*background-color: var(--background-color);*/
         background-blend-mode: luminosity;
         box-shadow: 0 8px 6px -6px black;
 
@@ -593,11 +634,11 @@ body {
         z-index: 0;
         grid-area: 4 / 1 / 7 / 7;
         border-radius: 4px;
-        background-image: url(./media/peoplegroup-compresed.jpg);
+        background-image: url(./media/dialogo.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: var(--background-color);
+        /*background-color: var(--background-color);*/
         background-blend-mode: luminosity;
         box-shadow: 0 8px 6px -6px black;
 
@@ -641,11 +682,11 @@ body {
         z-index: 0;
         grid-area: 4 / 7 / 7 / 11;
         border-radius: 4px;
-        background-image: url(./media/seaboat-compresed.jpg);
+        background-image: url(./media/capacita.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: var(--background-color);
+        /*background-color: var(--background-color);*/
         background-blend-mode: luminosity;
         box-shadow: 0 8px 6px -6px black;
 
@@ -727,11 +768,11 @@ body {
     gap: 20px;
 
     .card-1 {
-        background-image: url(./media/mujer-1.jpg);
+        background-image: url(./media/mujer-1.png);
     }
 
     .card-2 {
-        background-image: url(./media/hombre-1.jpg);
+        background-image: url(./media/alejandro.jpeg);
     }
 
     .card-3 {
@@ -743,7 +784,7 @@ body {
     }
 
     .card-5 {
-        background-image: url(./media/mujer-3.png);
+        background-image: url(./media/andrea-3.png);
     }
 
     .card-1,
@@ -759,7 +800,7 @@ body {
         z-index: 0;
         display: flex;
         flex-direction: column;
-        background-color: var(--background-color);
+        /*background-color: var(--background-color);*/
         background-blend-mode: luminosity;
         background-position: center;
         background-repeat: no-repeat;
