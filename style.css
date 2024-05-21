@@ -471,10 +471,7 @@ body {
         padding: 20px;
         margin-top: 70px;
 
-        .glass-p {
-            border: thin solid red;
-            padding: 40px;
-        }
+
 
         .toggle-button {
             display: none;
@@ -499,6 +496,7 @@ body {
             padding: 10px 20px;
             cursor: pointer;
             margin-top: 40px;
+            text-align: center;
         }
 
         /* Estilos para el texto oculto */
@@ -521,8 +519,9 @@ body {
 
             p {
                 font-size: 0.9rem;
-                width: 425px;
                 color: var(--background-color-light);
+                text-align: center;
+                object-fit: contain;
             }
         }
 
@@ -651,7 +650,7 @@ body {
         z-index: 0;
         grid-area: 1 / 5 / 4 / 11;
         border-radius: 4px;
-        background-image: url(./media/MapeoFam.Rojas.jpg);
+        background-image: url(./media/Siembra\ en\ Guatin.JPG);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1184,6 +1183,47 @@ footer {
 
         p {
             width: 320px;
+            font-size: 0.9rem;
+        }
+
+        .toggle-label,
+        .toggle-label-1,
+        .toggle-label-2,
+        .toggle-label-3,
+        .toggle-label-4,
+        .toggle-label-5 {
+            background-color: var(--background-color);
+            border-radius: 12px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 40px;
+            width: 250px;
+        }
+
+        /* Estilos para el texto oculto */
+        .texto-oculto,
+        .texto-oculto-1,
+        .texto-oculto-2,
+        .texto-oculto-3,
+        .texto-oculto-4,
+        .texto-oculto-5 {
+            display: none;
+            margin-top: 40px;
+            /* From https://css.glass */
+            background: rgba(177, 200, 244, 0.11);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6.6px);
+            -webkit-backdrop-filter: blur(6.6px);
+            border: 1px solid rgba(177, 200, 244, 1);
+            padding: 25px;
+            width: 300px;
+            text-align: center;
+            object-fit: contain;
+
+            p {
+                width: 250px;
+            }
         }
     }
 
@@ -1260,51 +1300,13 @@ footer {
     }
 
     .bienvenida {
+
         h2 {
             text-align: center;
         }
 
         h3 {
             width: 320px;
-        }
-
-        .toggle-label,
-        .toggle-label-1,
-        .toggle-label-2,
-        .toggle-label-3,
-        .toggle-label-4,
-        .toggle-label-5 {
-            background-color: var(--background-color);
-            border-radius: 12px;
-            padding: 10px 20px;
-            cursor: pointer;
-            margin-top: 40px;
-            width: 250px;
-        }
-
-        /* Estilos para el texto oculto */
-        .texto-oculto,
-        .texto-oculto-1,
-        .texto-oculto-2,
-        .texto-oculto-3,
-        .texto-oculto-4,
-        .texto-oculto-5 {
-            display: none;
-            margin-top: 40px;
-            /* From https://css.glass */
-            background: rgba(177, 200, 244, 0.11);
-            border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(6.6px);
-            -webkit-backdrop-filter: blur(6.6px);
-            border: 1px solid rgba(177, 200, 244, 1);
-            padding: 25px;
-
-            p {
-                font-size: 0.8rem;
-                width: 295px;
-                color: var(--background-color-light);
-            }
         }
     }
 }
