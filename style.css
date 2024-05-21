@@ -63,7 +63,7 @@ body {
     a {
         padding: 20px;
         color: var(--text-color);
-        text-shadow: rgb(255, 255, 255) 1px 0 10px;
+        /* text-shadow: rgb(255, 255, 255) 1px 0 10px; */
         font-family: 'Onest', sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -117,7 +117,7 @@ body {
 
         h2 {
             color: var(--text-color);
-            text-shadow: rgb(255, 255, 255) 1px 0 10px;
+            /* text-shadow: rgb(255, 255, 255) 1px 0 10px; */
             font-size: 2.2rem;
             z-index: 10;
             font-weight: 600;
@@ -156,9 +156,9 @@ body {
     position: relative;
     z-index: 0;
     grid-area: 7 / 1 / 13 / 6;
-    background-image: url(./media/profsalita.jpg);
-    /*background-color: var(--background-color);*/
-    background-position: right;
+    background-image: url(./media/ninos-pueblito-compresed.jpg);
+    background-color: var(--background-color);
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
@@ -184,7 +184,7 @@ body {
 
         h2 {
             color: var(--text-color);
-            text-shadow: rgb(255, 255, 255) 1px 0 10px;
+            /* text-shadow: rgb(255, 255, 255) 1px 0 10px; */
             font-size: 2.2rem;
             z-index: 10;
             font-weight: 600;
@@ -216,7 +216,7 @@ body {
     position: relative;
     z-index: 0;
     grid-area: 7 / 6 / 13 / 11;
-    background-image: url(./media/Arriero-AndreaLa\ Fortura.JPG);
+    background-image: url(./media/underdog.jpg);
     /*background-color: var(--background-color);*/
     background-position: center;
     background-size: cover;
@@ -244,7 +244,7 @@ body {
 
         h2 {
             color: var(--text-color);
-            text-shadow: rgb(255, 255, 255) 1px 0 10px;
+            /* text-shadow: rgb(255, 255, 255) 1px 0 10px; */
             font-size: 2.2rem;
             z-index: 10;
             font-weight: 600;
@@ -318,9 +318,9 @@ body {
         font-size: 1.2em;
         width: 700px;
         padding: 15px;
-            background-color: rgba(0, 0, 0, 0.500);
-            border-radius: 10px;
-            text-shadow: rgb(0, 0, 0) 5px 0 15px;
+        background-color: rgba(0, 0, 0, 0.500);
+        border-radius: 10px;
+        text-shadow: rgb(0, 0, 0) 5px 0 15px;
     }
 
     .trademark {
@@ -431,9 +431,9 @@ body {
         text-shadow: rgb(0, 0, 0) 1px 0 10px;
         transition: all 0.3s ease;
         padding: 15px;
-            background-color: rgba(0, 0, 0, 0.500);
-            border-radius: 10px;
-            text-shadow: rgb(0, 0, 0) 5px 0 15px;
+        background-color: rgba(0, 0, 0, 0.500);
+        border-radius: 10px;
+        text-shadow: rgb(0, 0, 0) 5px 0 15px;
     }
 
     a:hover {
@@ -469,6 +469,71 @@ body {
         align-items: center;
         width: 100%;
         padding: 20px;
+        margin-top: 70px;
+
+        .glass-p {
+            border: thin solid red;
+            padding: 40px;
+        }
+
+        .toggle-button {
+            display: none;
+        }
+
+        .toggle-button-1,
+        .toggle-button-2,
+        .toggle-button-3,
+        .toggle-button-4,
+        .toggle-button-5 {
+            display: none;
+        }
+
+        .toggle-label,
+        .toggle-label-1,
+        .toggle-label-2,
+        .toggle-label-3,
+        .toggle-label-4,
+        .toggle-label-5 {
+            background-color: var(--background-color);
+            border-radius: 12px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 40px;
+        }
+
+        /* Estilos para el texto oculto */
+        .texto-oculto,
+        .texto-oculto-1,
+        .texto-oculto-2,
+        .texto-oculto-3,
+        .texto-oculto-4,
+        .texto-oculto-5 {
+            display: none;
+            margin-top: 40px;
+            /* From https://css.glass */
+            background: rgba(177, 200, 244, 0.11);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6.6px);
+            -webkit-backdrop-filter: blur(6.6px);
+            border: 1px solid rgba(177, 200, 244, 1);
+            padding: 25px;
+
+            p {
+                font-size: 0.9rem;
+                width: 425px;
+                color: var(--background-color-light);
+            }
+        }
+
+        .toggle-button:checked~.texto-oculto,
+        .toggle-button-1:checked~.texto-oculto-1,
+        .toggle-button-2:checked~.texto-oculto-2,
+        .toggle-button-3:checked~.texto-oculto-3,
+        .toggle-button-4:checked~.texto-oculto-4,
+        .toggle-button-5:checked~.texto-oculto-5 {
+            display: block;
+        }
     }
 
     img {
@@ -479,7 +544,7 @@ body {
 
     h2 {
         font-family: 'Onest', sans-serif;
-        font-size: 2em;
+        font-size: 3.2em;
         font-weight: 600;
         margin: 80px;
         text-shadow: rgb(255, 255, 255) 2px 0 15px;
@@ -488,7 +553,7 @@ body {
     h3 {
         font-size: 1.2em;
         margin-top: 30px;
-        width: 200px;
+        width: 500px;
         align-self: center;
         text-align: center;
     }
@@ -780,7 +845,7 @@ body {
     }
 
     .card-4 {
-        background-image: url(./media/hombre-2.jpg);
+        background-image: url(./media/jorge.jpeg);
     }
 
     .card-5 {
@@ -1190,6 +1255,55 @@ footer {
         .logo-footer {
             img {
                 width: 400px;
+            }
+        }
+    }
+
+    .bienvenida {
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            width: 320px;
+        }
+
+        .toggle-label,
+        .toggle-label-1,
+        .toggle-label-2,
+        .toggle-label-3,
+        .toggle-label-4,
+        .toggle-label-5 {
+            background-color: var(--background-color);
+            border-radius: 12px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 40px;
+            width: 250px;
+        }
+
+        /* Estilos para el texto oculto */
+        .texto-oculto,
+        .texto-oculto-1,
+        .texto-oculto-2,
+        .texto-oculto-3,
+        .texto-oculto-4,
+        .texto-oculto-5 {
+            display: none;
+            margin-top: 40px;
+            /* From https://css.glass */
+            background: rgba(177, 200, 244, 0.11);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(6.6px);
+            -webkit-backdrop-filter: blur(6.6px);
+            border: 1px solid rgba(177, 200, 244, 1);
+            padding: 25px;
+
+            p {
+                font-size: 0.8rem;
+                width: 295px;
+                color: var(--background-color-light);
             }
         }
     }
