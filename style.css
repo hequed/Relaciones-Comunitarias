@@ -91,7 +91,7 @@ body {
     grid-area: 1 / 1 / 7 / 11;
     background-image: url(./media/torreswp.webp);
     /*background-color: var(--background-color);*/
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
