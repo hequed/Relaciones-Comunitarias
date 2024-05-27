@@ -89,7 +89,7 @@ body {
     position: relative;
     z-index: 0;
     grid-area: 1 / 1 / 7 / 11;
-    background-image: url(./media/mainwp.jpg);
+    background-image: url(./media/torreswp.webp);
     /*background-color: var(--background-color);*/
     background-position: bottom;
     background-size: cover;
