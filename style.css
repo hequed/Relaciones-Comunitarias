@@ -520,7 +520,7 @@ body {
             p {
                 font-size: 0.9rem;
                 color: var(--background-color-light);
-                text-align: center;
+                text-align: start;
                 object-fit: contain;
             }
         }
