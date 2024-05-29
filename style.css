@@ -845,10 +845,13 @@ body {
 
     .card-4 {
         background-image: url(./media/jorge.jpeg);
+        background-repeat: top;
+
     }
 
     .card-5 {
-        background-image: url(./media/andrea-3.png);
+        background-image: url(./media/andrea.jpg);
+        background-repeat: top;
     }
 
     .card-1,
